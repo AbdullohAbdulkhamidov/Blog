@@ -1,8 +1,8 @@
 /* Container */
 .profile-card {
-    border: 2px solid red;
+    border: 1px solid #24364a;
     width: 100%;
-    max-width: 380px;
+    max-width: 640px;
     background-color: #0f1621;
     border-radius: 16px;
     padding: 20px;
@@ -38,7 +38,7 @@
 }
 
 .verified-icon {
-    background-color: red;
+    background-color: #6ab3f3;
     color: #fff;
     border-radius: 50%;
     width: 14px;
@@ -50,7 +50,7 @@
 }
 
 .username {
-    color: red;
+    color: #6ab3f3;
     font-size: 14px;
     margin: 2px 0 0 0;
 }
@@ -75,8 +75,7 @@
 
 .stat-item span {
     font-size: 11px;
-    /* color: #708499; */
-    color: red;
+    color: #6ab3f3;
 }
 
 /* Bio & Links */
@@ -92,5 +91,12 @@
 }
 
 .contact-info p:last-child {
-    color: red;
+    color: #6ab3f3;
+}
+
+.latest-profile-post {
+    border: 1px solid #24364a;
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-bottom: 12px;
 }

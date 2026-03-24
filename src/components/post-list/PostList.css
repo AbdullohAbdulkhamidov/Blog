@@ -1,0 +1,45 @@
+.postbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.post-creator {
+    margin: 1rem 0.5rem 0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid #2a3a4f;
+    background-color: #0f1621;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.post-creator-input {
+    min-height: 90px;
+    border-radius: 0.5rem;
+    border: 1px solid #364d68;
+    background-color: #111b2a;
+    color: #fff;
+    padding: 0.75rem;
+    resize: vertical;
+}
+
+.post-creator-btn {
+    align-self: flex-end;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.55rem 1rem;
+    background-color: #33a1de;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.empty-posts {
+    color: #fff;
+    opacity: 0.8;
+    margin: 1rem 0.5rem;
+}

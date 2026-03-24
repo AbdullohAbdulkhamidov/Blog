@@ -1,11 +1,10 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  align-items: flex-start;
   margin: 0 auto;
-  border: 1px solid blue;
-
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
+  padding: 1rem;
+  flex-wrap: wrap;
 }

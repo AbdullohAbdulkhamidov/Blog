@@ -1,0 +1,122 @@
+/* PostItem.css */
+.post-card {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem 0.5rem 0;
+    width: 100%;
+    max-width: 640px;
+    
+    border: 1px solid #24364a;
+    border-radius: 0.75rem;
+    color: #fff;
+    background-color: #0f1621;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.post-header {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.post-header span {
+    color: #6ab3f3;
+}
+
+.post-text {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.post-edit-input {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    display: block;
+    min-height: 90px;
+    border-radius: 0.5rem;
+    border: 1px solid #364d68;
+    background-color: #111b2a;
+    color: #fff;
+    padding: 0.75rem;
+    resize: vertical;
+}
+
+.post-meta {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #708499;
+}
+
+.interact-hint {
+    font-weight: bold;
+    color: red;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Keyframes for the entry animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.action-btn {
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: filter 0.2s;
+}
+
+.action-btn:hover {
+    filter: brightness(1.2);
+}
+
+.action-btn.edit {
+    background-color: #33a1de;
+}
+
+.action-btn.delete {
+    background-color: red;
+}
+
+.action-btn.cancel {
+    background-color: #6c7a89;
+}
+
+/* .btn-label {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .btn-label {
+        display: inline;
+    }
+} */
